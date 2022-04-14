@@ -1,27 +1,39 @@
 /* eslint-disable no-multi-spaces, key-spacing */
 
 module.exports = {
+    mode: 'jit',
     content: [
         'src/**/*.jsx',
     ],
     theme: {
         fontFamily: {
-            display: ['Open Sans', 'Helvetica', 'sans-serif'],
-            body: ['Open Sans', 'Helvetica', 'sans-serif'],
+            display: ['Poppins', 'Helvetica', 'sans-serif'],
+            body: ['Poppins', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
             xs: ['0.75rem',      '1.5'],
-            sm: ['0.875rem',     '1.5'],
-            base: ['1rem',       '1.5'],
-            lg: ['1.125rem',     '1.75'],
-            xl: ['1.25rem',      '1.75'],
-            '2xl': ['1.5rem',    '2'],
-            '3xl': ['1.875rem',  '2.5'],
-            '4xl': ['2.25rem',   '3'],
-            '5xl': ['3rem',      '3.5'],
+            sm: ['0.875rem',     '1.57'],
+            base: ['1rem',       '1.63'],
+            lg: ['1.125rem',     '1.61'],
+            xl: ['1.25rem',      '1.2'],
+            '2xl': ['1.5rem',    '1.25'],
+            '3xl': ['1.875rem',  '1.25'],
+            '4xl': ['2.5rem',   '1.25'],
+            '5xl': ['2.5rem',      '1.25'],
         },
         extend: {
             colors: {
+              gray: {
+                100: '#E7F0FC',
+                300: '#565656',
+                400: '#757575',
+                500: '#959595',
+                600: '#A4A4A4',
+              },
+              blue: {
+                100: '#F4F9FF',
+                500: '#2639ED',
+              },
             },
             margin: {
                 '1/12': '8.333333%',

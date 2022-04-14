@@ -27,15 +27,15 @@
   }
 
   .typo-h5 {
-    @apply font-display text-lg font-semibold;
+    @apply font-display text-xl font-semibold;
   }
 
   .typo-h6 {
-    @apply font-display text-base font-semibold;
+    @apply font-display text-lg font-semibold;
   }
 
   .typo-blockquote {
-    @apply font-body text-lg lg:text-xl font-normal;
+    @apply font-body text-base lg:text-lg font-normal;
   }
 
   .typo-intro {
@@ -58,17 +58,17 @@
 
   .container-lg {
     @apply mx-auto px-4;
-    max-width: 1300px;
+    max-width: 1350px;
   }
 
   .container-md {
     @apply mx-auto px-4;
-    max-width: 1100px;
+    max-width: 1200px;
   }
 
   .container-sm {
     @apply mx-auto px-4;
-    max-width: 900px;
+    max-width: 1000px;
   }
 
   /* Row */
@@ -133,5 +133,9 @@
 @layer utilities {
   .pb-full {
     padding-bottom: 100%;
+  }
+
+  .rounded-75 {
+    border-radius: 75px;
   }
 }
